@@ -26,7 +26,7 @@ div {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	background-color: 348f00;
+	background-color: #348f00;
 }
 .index_headerRightContainer_div {
 	width: 15%;
@@ -44,3 +44,62 @@ div {
 	color: #ffffff;
 	margin-right: 20px;
 }
+
+			.img{
+				margin-top: 15px;
+			}
+			.img1{
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+			}
+			.img2{
+				display: flex;
+				justify-content: center;
+			}
+			.dah{
+				width: 600px;
+				margin: 10px;
+				Border-radius:20px;
+				transition: transform .2s;
+			}
+			.yazdah{
+				width: 600px;
+				margin: 10px;
+				Border-radius:20px;
+				transition: transform .2s;
+			}
+			.davazdah{
+				width: 600px;
+				margin: 10px;
+				Border-radius:20px;
+				transition: transform .2s;
+			}
+			.dah:hover{
+				transform: scale(1.05)
+			}
+			.yazdah:hover{
+				transform: scale(1.05)
+			}
+			.davazdah:hover{
+				transform: scale(1.05)
+			}
+			@media (max-width: 1200px){
+				.img1{
+					flex-direction: column;
+					align-items: center;
+				}
+				.dah{
+					width: 600px;
+					 
+				}
+				.yazdah{
+					width: 600px;
+					
+				}
+				.davazdah{
+					width: 600px;
+					
+				}
+				
+			}
