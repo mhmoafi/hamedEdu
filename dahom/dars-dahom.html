@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>انتخاب درس - پایه دهم</title>
+<style>
+	@font-face {
+	font-family: yekan;
+	src: url(../assets/mainAssets/iranyekanwebregularfanum.woff2);
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	font-family: yekan;
+}
+.index_mainContainer_div {
+	width: 100%;
+}
+.index_headerContainer_div {
+	width: 100%;
+	height: 120px;
+	margin-top: 10px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+}
+.index_headerLeftContainer_div {
+	width: 85%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #348f00;
+}
+.index_headerRightContainer_div {
+	width: 15%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.index_headerLogo_img {
+	width: 50%;
+}
+.index_hederTitle_p {
+	font-size: 2em;
+	font-weight: bold;
+	color: #ffffff;
+	margin-right: 20px;
+}
+			.img{
+				margin-top: 15px;
+			}
+			.img1{
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+			}
+			.img2{
+				display: flex;
+				justify-content: center;
+			}
+			.img3{
+				display: flex;
+				justify-content: center;
+			}
+			.img111, .img112, .img121, .img122, .img211, .img212, .img221, .img222, .img311, .img312, .img321{
+				width: 250px;
+				margin: 10px;
+				Border-radius:20px;
+				transition: transform .2s;
+			}
+			.img111:hover, .img112:hover, .img121:hover, .img122:hover, .img211:hover, .img212:hover, .img221:hover, .img222:hover, .img311:hover, .img312:hover, .img321:hover{
+				transform: scale(1.05);
+			}
+			@media (max-width: 1200px){
+				.img1{
+					flex-direction: column;
+					align-items: center;
+				}
+				.img2{
+					flex-direction: column;
+					align-items: center;
+				}
+				.img3{
+					flex-direction: column;
+					align-items: center;
+				}
+				.img111, .img112, .img121, .img122, .img211, .img212, .img221, .img222, .img311, .img312, .img321{
+				width: 400px;
+				}
+				
+			}
+</style>
+</head>
+
+<body>
+	<div class="index_mainCotainer_div">
+            <div class="index_headerContainer_div">
+                <div class="index_headerLeftContainer_div">
+                    <p class="index_hederTitle_p">
+                        مرجع آموزش مجازی مدرسه حامد
+                    </p>
+                </div>
+                <div class="index_headerRightContainer_div">
+                    <img alt="#" class="index_headerLogo_img" src="../assets/mainAssets/hamedLogo.png"/>
+                </div>
+            </div>
+        </div>
+	
+	<div class="img">
+			<div class="img1">
+				<div class="img11">
+					<img class="img111" src="../assets/mainAssets/dars/amar.png" alt="#">
+					<img class="img112" src="../assets/mainAssets/dars/arabi.png" alt="#">
+				</div>
+				<div class="img12">
+					<img class="img121" src="../assets/mainAssets/dars/dini.png" alt="#">
+					<img class="img122" src="../assets/mainAssets/dars/farsi.png" alt="#">
+				</div>
+			</div>
+			<div class="img2">
+				<div class="img21">
+					<img class="img211" src="../assets/mainAssets/dars/fizik.png" alt="#">
+					<img class="img212" src="../assets/mainAssets/dars/hendese.png" alt="#">
+				</div>
+				<div class="img22">
+					<img class="img221" src="../assets/mainAssets/dars/hesaban.png" alt="#">
+					<img class="img222" src="../assets/mainAssets/dars/riazi.png" alt="#">
+				</div>
+			</div>
+			<div class="img3">
+				<div class="img31">
+					<img class="img311" src="../assets/mainAssets/dars/shimi.png" alt="#">
+					<img class="img312" src="../assets/mainAssets/dars/zaban.png" alt="#">
+				</div>
+				<div class="img32">
+					<img class="img321" src="../assets/mainAssets/dars/zist.png" alt="#">
+				</div>
+			</div>
+		</div>
+</body>
+</html>

@@ -57,49 +57,26 @@ div {
 				display: flex;
 				justify-content: center;
 			}
-			.dah{
-				width: 600px;
+			.img111, .img112, .img121, .img122, .img211, .img212, .img221, .img222{
+				width: 250px;
 				margin: 10px;
 				Border-radius:20px;
 				transition: transform .2s;
 			}
-			.yazdah{
-				width: 600px;
-				margin: 10px;
-				Border-radius:20px;
-				transition: transform .2s;
-			}
-			.davazdah{
-				width: 600px;
-				margin: 10px;
-				Border-radius:20px;
-				transition: transform .2s;
-			}
-			.dah:hover{
-				transform: scale(1.05)
-			}
-			.yazdah:hover{
-				transform: scale(1.05)
-			}
-			.davazdah:hover{
-				transform: scale(1.05)
+			.img111:hover, .img112:hover, .img121:hover, .img122:hover, .img211:hover, .img212:hover, .img221:hover, .img222:hover{
+				transform: scale(1.05);
 			}
 			@media (max-width: 1200px){
 				.img1{
 					flex-direction: column;
 					align-items: center;
 				}
-				.dah{
-					width: 600px;
-					 
+				.img2{
+					flex-direction: column;
+					align-items: center;
 				}
-				.yazdah{
-					width: 600px;
-					
-				}
-				.davazdah{
-					width: 600px;
-					
+				.img111, .img112, .img121, .img122, .img211, .img212, .img221, .img222{
+				width: 400px;
 				}
 				
 			}
